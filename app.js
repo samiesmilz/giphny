@@ -2,7 +2,7 @@ console.log("Let's get this party started!");
 
 // Search for giphys
 async function search(term) {
-  const key = "sxsogY2tZb3AO6CTUrjNYAc0x0ZXEEtt";
+  const key = "MhAodEJIJxQMxW9XqxKjyXfNYdLoOIym";
   const response = await axios.get("https://api.giphy.com/v1/gifs/search", {
     params: { q: term, api_key: key, rating: "g" },
   });
