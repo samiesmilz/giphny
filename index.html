@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Giphy Party!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="contol">
+      <fieldset id="fieldset">
+        <legend id="legend">Lets get giphy!</legend>
+
+        <form id="giphy-form" action="">
+          <img
+            id="logo"
+            src="./PoweredBy_640_Horizontal_Light-Backgrounds_With_Logo.gif"
+            alt="Powered by Giphy"
+          />
+          <label for="term">Ready to find a giphy?</label>
+          <input
+            id="term"
+            type="text"
+            alt="search box"
+            ,
+            placeholder="Enter a search term..."
+          />
+          <button id="submit-btn">Search Giphy</button>
+          <button id="delete-all-btn">Clear All Giphs</button>
+        </form>
+      </fieldset>
+    </div>
+    <div id="giphy-container"></div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

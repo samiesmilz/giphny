@@ -1,0 +1,98 @@
+body {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  background-color: #212121;
+  background: linear-gradient(to right, white, #212121);
+}
+
+#fieldset {
+  border-radius: 10px;
+  border: 1px solid black;
+  background-color: tomato;
+  padding-bottom: 15px;
+  box-shadow: 0 0 10px #0000004d; /* Subtle box shadow */
+}
+
+#legend {
+  font-size: x-small;
+  background-color: black;
+  color: white;
+  padding: 5px 25px;
+  border-radius: 15px;
+  border: 0.5px dotted black;
+}
+form {
+  display: flex; /* Use flexbox for centering */
+  flex-direction: row; /* Stack the divs vertically */
+  flex-wrap: wrap;
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  gap: 10px;
+}
+
+#term {
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 250px;
+  outline-color: antiquewhite;
+}
+
+#submit-btn {
+  padding: 10px;
+  min-width: 150px;
+  border-radius: 10px;
+  border: 1.5px dotted black;
+}
+#delete-all-btn {
+  padding: 10px;
+  min-width: 150px;
+  border-radius: 10px;
+  border: 1.5px dotted black;
+  background-color: tomato;
+  color: white;
+}
+#submit-btn:hover {
+  background-color: black;
+  color: white;
+  border-color: antiquewhite;
+  border: 1px solid;
+}
+#delete-all-btn:hover {
+  background-color: red;
+  color: white;
+}
+
+#giphy-container {
+  max-width: 100vw;
+  max-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.remove {
+  border: 0.5px dotted black;
+  border-radius: 15px;
+  color: white;
+  background-color: tomato;
+}
+
+#logo {
+  display: inline-block;
+  height: 25px;
+  padding-right: 10px;
+}
+
+.gif-div {
+  padding: 5px;
+  border-radius: 5px;
+  width: fit-content;
+  display: inline-block;
+  background-color: black;
+  margin: 5px;
+}
+
+.gif {
+  display: inline-block;
+}
